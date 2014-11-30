@@ -1,0 +1,329 @@
+html, body { 
+    color: black; 
+    font-family: 'Open Sans', sans-serif !important; 
+    height: 100%; 
+}
+
+body { 
+   /* background: #EFC797;*/ 
+    font-size: 15px; 
+    line-height: 1.64; 
+}
+
+
+h1, h2, h3, h4, h5, strong{
+    font-family: 'Open Sans', sans-serif !important;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+
+
+/*h2,h3{
+    font-weight: 200;
+    color: black;
+}*/
+
+h2{
+    color: #6ba5df;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+
+
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+
+#content{
+    position: absolute;
+    top: calc(50% - 230px/2);
+    text-align: center;
+    width: 100%;
+    color: white;
+    z-index: 900;
+}
+
+
+#background-img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: -250px;
+    z-index: -1;
+    clear: both;
+}
+
+h4{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+
+.icon.icon-linkedin { 
+    background-position: 0px -32px; 
+}
+
+
+.icon.icon-email { 
+    background-position: 0px -96px; 
+}
+
+#nav-bar {
+    background: #e7e7e7;
+    width: 100%;
+    height: 7%;
+    opacity: 0.7;
+    position: fixed;
+    top: 0%;
+    z-index: 999;
+}
+
+#info-nav li {
+    display: inline-block;
+    float: left;
+    margin-right: 48px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #2F4F4F ;
+    font-weight: bold;
+} 
+
+
+hr{
+    margin: 10px 0px;
+    border-color: #727878;
+    opacity: 0.2;
+}
+
+.container{
+    max-width: 1336px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+
+}
+
+.background-white{
+    background: white;
+}
+
+.background-brown{
+     background: #98ABBE;
+     height: 500px;
+}
+
+.background-grey{
+    background: #C0C0C0;
+
+}
+
+#profile{
+    margin-top: 890px;
+    width: 1336px;
+}
+
+.row{
+/*    margin-left: calc(50% - 668px/2);*/
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+
+}
+
+
+#educations .educations{
+    margin-bottom: 20px;
+}
+
+#pic{
+    height: 300px;
+    width: 300px; 
+    /*margin-left: 20%;*/
+    margin-left: calc(50% - 300px/2);
+}
+
+.col-md-1{
+  /*  float: left;
+    position: relative;*/
+    text-align: center;
+}
+
+.col-md-3{
+    padding-left: 50%;
+    display: inline-block;
+    margin-top: -30%;
+}
+
+
+
+.col-md-4{
+    display: block;
+}
+
+.col-md-8{
+    display: block;
+    padding-left: 33.3%;
+    margin-top: -76px;
+
+}
+
+.col-md-6{
+    display: block;
+    text-align: center;
+}
+
+.email{
+    margin-top: -10px;
+}
+
+/*#modal-header{
+    font-weight: bold;
+}*/
+#modal-box{
+    left: 47%;
+    margin-top: -22.5%;
+    width: 200px;
+    height: 180px;
+    background-color:#91B0D3;
+    position: relative;
+    /*z-index: 2;*/
+    padding: 20px;
+    border-radius: 10px;
+    clear: both;
+    text-align: center;
+    display: none;
+}
+
+.carousel-container{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+#carousel{
+    width: 4800px;
+    height: 500px;
+    margin-left: 0px;
+    -webkit-transition: all 0.3s;
+}
+
+.carousel-item{
+    width: 960px;
+    position: relative;
+    height: 500px;
+    float: left;
+}
+/* QUESTION #5: PLACE "OTHER CSS" STYLES BELOW */
+.section{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+/*#carousel-prev, #carousel-prev img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    left: 25%;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}*/
+
+
+
+
+/*#carousel-next #carousel-next img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    right: 25%;
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.3s;
+}*/
+
+/* Styling for the quotes and text in each section */
+.ability, .text {
+    position: absolute;
+    font-size: 36px;
+    color: white;
+    font-weight: 700;
+    top: 30%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#carousel-prev img#previous-icon {
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20%;
+    z-index: 1;
+    opacity: 0.7;
+     -webkit-transition: all 0.3s;
+}
+
+#carousel-prev img#previous-icon:hover {
+    cursor: pointer;
+}
+
+#carousel-next img#next-icon {
+    display: block;
+    width: 100px;
+    position: absolute;
+    left: 880px;
+    top:20%;
+    z-index: 1;
+    opacity: 0.7;
+     -webkit-transition: all 0.3s;
+}
+
+
+#carousel-next img#next-icon:hover {
+    cursor: pointer;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+#overlay-active, #wrapper-active, #box-active {
+    -webkit-transform: translateX(280px);
+    -moz-transform: translateX(280px);
+    transform: translateX(280px);
+}
+
+.modal-active {
+    -webkit-transform: translateX(0px);
+    -moz-transform: translateX(0px);
+    -o-transform: translateX(0px);
+}
